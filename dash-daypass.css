@@ -1,0 +1,46 @@
+.dash-paywall{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 75%;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.dash-paywall-center{
+  display: flex;
+  justify-content: center;
+}
+.dash-paywall-plans-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.dash-paywall-plan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1em 2em;
+}
+.dash-paywall-plan p {
+  text-align: center;
+}
+.dash-paywall_QR{
+  margin-top: 0.5rem;
+  height: 25vw;
+  width: 25vw;
+  min-height: 200px;
+  min-width: 200px;
+  background-color: rgb(100,100,100);
+}
+
+small {
+    opacity: 0.9;
+}
